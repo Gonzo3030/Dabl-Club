@@ -1,28 +1,31 @@
 # Dabl Club
 
-## Introduction to ElizaOS and Polygon
+## Introduction to elizaOS and Polygon
 
-This repository contains resources and information related to ElizaOS and the Polygon blockchain, two key technologies in the modern decentralized application landscape.
+This repository contains resources and information related to elizaOS and the Polygon blockchain, two key technologies in the autonomous agent and blockchain spaces.
 
-## ElizaOS
+## elizaOS
 
-ElizaOS is an innovative operating system designed specifically for blockchain interactions and decentralized applications (dApps). Named after Eliza, one of the earliest natural language processing computer programs, ElizaOS aims to make blockchain technology more accessible and user-friendly.
+elizaOS is a framework for creating autonomous AI agents that can interact with blockchain networks. It's not an operating system in the traditional sense, but rather a platform that enables the creation and management of AI agents.
 
-### Key Features of ElizaOS
+### Key Features of elizaOS
 
-- **Blockchain-Centric Design**: Built from the ground up to optimize blockchain operations and dApp performance
-- **Multi-Chain Support**: Native integration with multiple blockchain networks, with enhanced support for Polygon
-- **Secure Environment**: Robust security architecture designed specifically for cryptocurrency and digital asset management
-- **Developer-Friendly**: Comprehensive SDK and API access for seamless dApp development
-- **Intuitive Interface**: User-friendly design that abstracts blockchain complexity for end-users
+- **🛠️ Multi-Platform Client Integration**: Full-featured Discord, X (Twitter), and Telegram connectors
+- **🔗 LLM Model Support**: Compatibility with various AI models including Llama, Grok, OpenAI, Anthropic, Gemini, etc.
+- **👥 Multi-Agent Capabilities**: Support for multiple agents and room-based interactions
+- **📚 Document Ingestion**: Easily ingest and have agents interact with your documents
+- **💾 Memory Management**: Retrievable memory and document storage for agents
+- **🚀 Extensible Architecture**: Create custom actions and clients through plugins
+- **🔗 Blockchain Integration**: Native support for blockchain operations including Polygon
 
 ### Use Cases
 
-- Decentralized finance (DeFi) platforms
-- NFT creation and management
-- DAO governance systems
-- Secure cryptocurrency wallets
-- Smart contract development and deployment
+- 🤖 AI Chatbots
+- 🕵️ Autonomous Agents
+- 📈 Business Process Automation
+- 🎮 Video Game NPCs
+- 🧠 Trading Bots
+- 🔗 Blockchain-Aware AI Applications
 
 ## Polygon
 
@@ -43,21 +46,40 @@ Polygon (formerly Matic Network) is a protocol and framework for building and co
 3. **Polygon Supernets**: Application-specific chains for custom use cases
 4. **Polygon Avail**: Data availability layer for off-chain scaling solutions
 
-## ElizaOS + Polygon Integration
+## elizaOS + Polygon Integration
 
-The integration of ElizaOS with Polygon creates a powerful combination for blockchain application development:
+elizaOS and Polygon have a significant partnership, with the elizaOS AI Agent Grants Program funded by Polygon to promote the development of blockchain-aware AI agents. The integration enables:
 
-- **Optimized Performance**: ElizaOS is specially tuned to maximize Polygon's speed and efficiency
-- **Enhanced Developer Experience**: Simplified deployment and management of dApps on Polygon
-- **Reduced Barriers to Entry**: More accessible interface for end-users to interact with Polygon-based applications
-- **Cross-Chain Capabilities**: Seamless interaction between Polygon and other supported blockchains
+- **Blockchain-Aware AI Agents**: Agents that can directly interact with blockchain networks
+- **On-Chain Operations**: AI agents that can read from and write to the blockchain
+- **DeFi Integration**: Autonomous agents for cryptocurrency trading and DeFi protocols
+- **Web3 Native Integration**: Seamless interaction with Web3 infrastructure and protocols
+- **Decentralized Data Access**: Ability to access and interpret blockchain data
+
+## Getting Started with elizaOS
+
+### Prerequisites
+
+- [Python 2.7+](https://www.python.org/downloads/) (3.8+ recommended)
+- [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [pnpm](https://pnpm.io/installation)
+
+### Quick Start with elizaOS Starter
+
+```bash
+git clone https://github.com/elizaos/eliza-starter.git
+cd eliza-starter
+cp .env.example .env
+pnpm i && pnpm build && pnpm start
+```
 
 ## Resources
 
-- [Official ElizaOS Documentation](#)
+- [elizaOS GitHub Repository](https://github.com/elizaOS/eliza)
+- [elizaOS Documentation](https://elizaos.github.io/eliza/)
+- [elizaOS & Polygon Grant Program](https://www.elizaos.ai/program/polygon)
 - [Polygon Developer Documentation](https://polygon.technology/developers)
 - [Polygon Academy](https://academy.polygon.technology/)
-- [ElizaOS Developer Portal](#)
 
 ## Contributing
 
